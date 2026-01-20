@@ -90,21 +90,4 @@ public final class Utils {
 		return null;
 	}
 
-}		for (ArtifactRepository repoable : pool) {
-			if (repoable instanceof MavenArtifactRepository repo) {
-				URL urlable = concat(repo.getUrl().toURL(),
-						dependency.getGroup().replace('.', '/') + '/' + dependency.getName() + '/'
-								+ dependency.getVersion() + '/' + dependency.getName() + '-' + dependency.getVersion()
-								+ ".pom");
-				if (!Utils.remoteResourceExists(urlable))
-					continue;
-				return repo.getUrl().toString();
-			}
-		}
-
-		// TODO don't do
-		System.err.println(dependency + " was not found :(");
-		return null;
-	}
-
 }
