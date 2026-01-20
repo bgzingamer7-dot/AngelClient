@@ -114,6 +114,9 @@ java {
 	sourceCompatibility = 17
 	targetCompatibility = 17
 
+	tasks.withType(JavaCompile).configureEach {
+    it.options.release = 8
+
 	jar {
 		enabled = false
 		dependsOn shadowJar
