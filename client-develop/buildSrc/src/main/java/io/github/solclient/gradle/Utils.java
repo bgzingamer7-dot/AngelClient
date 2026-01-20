@@ -32,7 +32,13 @@ public final class Utils {
 			return;
 
 		try (OutputStream out = Files.newOutputStream(destination)) {
-			url.openStream().transferTo(out);
+			try (InputStream in = url.openStream()) {
+				byte[] buffer = new byte[8192];
+				int n;
+				while ((n = in.read(buffer)) != -1) {
+					out.write(buffer, 0, n);
+				}
+			}
 		}
 	}
 
@@ -44,7 +50,8 @@ public final class Utils {
 
 	public static String format(Dependency dependency) {
 		String result = dependency.toString();
-		if (dependency instanceof ModuleDependency module) {
+		if (dependency instanceof ModuleDependency) {
+			ModuleDependency module = (ModuleDependency) dependency;
 			Iterator<DependencyArtifact> iterator = module.getArtifacts().iterator();
 			if (iterator.hasNext()) {
 				DependencyArtifact artifact = iterator.next();
@@ -67,6 +74,23 @@ public final class Utils {
 	public static String getRepo(Dependency dependency, Iterable<ArtifactRepository> pool)
 			throws MalformedURLException {
 		for (ArtifactRepository repoable : pool) {
+			if (repoable instanceof MavenArtifactRepository) {
+				MavenArtifactRepository repo = (MavenArtifactRepository) repoable;
+				URL urlable = concat(repo.getUrl().toURL(),
+						dependency.getGroup().replace('.', '/') + '/' + dependency.getName() + '/'
+								+ dependency.getVersion() + '/' + dependency.getName() + '-' + dependency.getVersion()
+								+ ".pom");
+				if (!Utils.remoteResourceExists(urlable))
+					continue;
+				return repo.getUrl().toString();
+			}
+		}
+
+		System.err.println(dependency + " was not found :(");
+		return null;
+	}
+
+}		for (ArtifactRepository repoable : pool) {
 			if (repoable instanceof MavenArtifactRepository repo) {
 				URL urlable = concat(repo.getUrl().toURL(),
 						dependency.getGroup().replace('.', '/') + '/' + dependency.getName() + '/'
