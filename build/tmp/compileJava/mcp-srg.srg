@@ -1,0 +1,77 @@
+FD: io/github/solclient/client/mixin/client/MixinAbstractResourcePack/resourcePackFile io/github/solclient/client/mixin/client/MixinAbstractResourcePack/field_110597_b
+FD: io/github/solclient/client/mixin/client/MixinEntityRenderer/mc io/github/solclient/client/mixin/client/MixinEntityRenderer/field_78531_r
+FD: io/github/solclient/client/mixin/client/MixinFontRendererCompat/FONT_HEIGHT io/github/solclient/client/mixin/client/MixinFontRendererCompat/field_78288_b
+FD: io/github/solclient/client/mixin/client/MixinGameSettings/useVbo io/github/solclient/client/mixin/client/MixinGameSettings/field_178881_t
+FD: io/github/solclient/client/mixin/client/MixinGuiIngame/mc io/github/solclient/client/mixin/client/MixinGuiIngame/field_73839_d
+FD: io/github/solclient/client/mixin/client/MixinGuiMainMenu/realmsButton io/github/solclient/client/mixin/client/MixinGuiMainMenu/field_175372_K
+FD: io/github/solclient/client/mixin/client/MixinGuiNewChat/drawnChatLines io/github/solclient/client/mixin/client/MixinGuiNewChat/field_146253_i
+FD: io/github/solclient/client/mixin/client/MixinGuiNewChat/chatLines io/github/solclient/client/mixin/client/MixinGuiNewChat/field_146252_h
+FD: io/github/solclient/client/mixin/client/MixinGuiScreen/buttonList io/github/solclient/client/mixin/client/MixinGuiScreen/field_146292_n
+FD: io/github/solclient/client/mixin/client/MixinGuiScreen/width io/github/solclient/client/mixin/client/MixinGuiScreen/field_146294_l
+FD: io/github/solclient/client/mixin/client/MixinGuiScreen/height io/github/solclient/client/mixin/client/MixinGuiScreen/field_146295_m
+FD: io/github/solclient/client/mixin/client/MixinGuiScreen/mc io/github/solclient/client/mixin/client/MixinGuiScreen/field_146297_k
+FD: io/github/solclient/client/mixin/client/MixinGuiScreenResourcePacks/availableResourcePacks io/github/solclient/client/mixin/client/MixinGuiScreenResourcePacks/field_146966_g
+FD: io/github/solclient/client/mixin/client/MixinGuiScreenResourcePacks/availableResourcePacksList io/github/solclient/client/mixin/client/MixinGuiScreenResourcePacks/field_146970_i
+FD: io/github/solclient/client/mixin/client/MixinGuiScreenResourcePacks/selectedResourcePacksList io/github/solclient/client/mixin/client/MixinGuiScreenResourcePacks/field_146967_r
+FD: io/github/solclient/client/mixin/client/MixinItemRenderer/itemToRender io/github/solclient/client/mixin/client/MixinItemRenderer/field_78453_b
+FD: io/github/solclient/client/mixin/client/MixinLocale/properties io/github/solclient/client/mixin/client/MixinLocale/field_135032_a
+FD: io/github/solclient/client/mixin/client/MixinMinecraft/currentScreen io/github/solclient/client/mixin/client/MixinMinecraft/field_71462_r
+FD: io/github/solclient/client/mixin/client/MixinMinecraft/renderEngine io/github/solclient/client/mixin/client/MixinMinecraft/field_71446_o
+FD: io/github/solclient/client/mixin/client/MixinMinecraft/gameSettings io/github/solclient/client/mixin/client/MixinMinecraft/field_71474_y
+FD: io/github/solclient/client/mixin/client/MixinMinecraft/currentServerData io/github/solclient/client/mixin/client/MixinMinecraft/field_71422_O
+FD: io/github/solclient/client/mixin/client/MixinMinecraft/theWorld io/github/solclient/client/mixin/client/MixinMinecraft/field_71441_e
+FD: io/github/solclient/client/mixin/client/MixinMinecraft/entityRenderer io/github/solclient/client/mixin/client/MixinMinecraft/field_71460_t
+FD: io/github/solclient/client/mixin/client/MixinMinecraft/serverName io/github/solclient/client/mixin/client/MixinMinecraft/field_71475_ae
+FD: io/github/solclient/client/mixin/client/MixinMinecraft/ingameGUI io/github/solclient/client/mixin/client/MixinMinecraft/field_71456_v
+FD: io/github/solclient/client/mixin/client/MixinMinecraft/renderManager io/github/solclient/client/mixin/client/MixinMinecraft/field_175616_W
+FD: io/github/solclient/client/mixin/client/MixinMinecraft/playerController io/github/solclient/client/mixin/client/MixinMinecraft/field_71442_b
+FD: io/github/solclient/client/mixin/client/MixinMinecraft/fullscreen io/github/solclient/client/mixin/client/MixinMinecraft/field_71431_Q
+FD: io/github/solclient/client/mixin/client/MixinNetHandlerPlayClient/gameController io/github/solclient/client/mixin/client/MixinNetHandlerPlayClient/field_147299_f
+FD: io/github/solclient/client/mixin/client/MixinNetHandlerPlayClient/clientWorldController io/github/solclient/client/mixin/client/MixinNetHandlerPlayClient/field_147300_g
+FD: io/github/solclient/client/mixin/client/MixinRenderManager/renderEngine io/github/solclient/client/mixin/client/MixinRenderManager/field_78724_e
+FD: io/github/solclient/client/mixin/client/MixinResourcePackListEntryFound/field_148319_c io/github/solclient/client/mixin/client/MixinResourcePackListEntryFound/field_148319_c
+FD: io/github/solclient/client/mixin/client/MixinResourcePackRepository/logger io/github/solclient/client/mixin/client/MixinResourcePackRepository/field_177320_c
+FD: io/github/solclient/client/mixin/client/MixinResourcePackRepository/repositoryEntries io/github/solclient/client/mixin/client/MixinResourcePackRepository/field_110617_f
+FD: io/github/solclient/client/mixin/client/MixinScreenshotHelper/pixelBuffer io/github/solclient/client/mixin/client/MixinScreenshotHelper/field_74293_b
+FD: io/github/solclient/client/mixin/client/MixinScreenshotHelper/logger io/github/solclient/client/mixin/client/MixinScreenshotHelper/field_148261_a
+FD: io/github/solclient/client/mixin/client/MixinScreenshotHelper/pixelValues io/github/solclient/client/mixin/client/MixinScreenshotHelper/field_74294_c
+FD: io/github/solclient/client/mixin/client/MixinSimpleReloadableResourceManager/setResourceDomains io/github/solclient/client/mixin/client/MixinSimpleReloadableResourceManager/field_135057_d
+FD: io/github/solclient/client/mixin/client/MixinSimpleReloadableResourceManager/domainResourceManagers io/github/solclient/client/mixin/client/MixinSimpleReloadableResourceManager/field_110548_a
+FD: io/github/solclient/client/mixin/client/MixinWorldClient/mc io/github/solclient/client/mixin/client/MixinWorldClient/field_73037_M
+FD: io/github/solclient/client/mixin/MixinWorldInfo/worldTime io/github/solclient/client/mixin/MixinWorldInfo/field_76094_f
+FD: io/github/solclient/client/mixin/mod/MixinChatMod$MixinScreenChatOptions/game_settings io/github/solclient/client/mixin/mod/MixinChatMod$MixinScreenChatOptions/field_146400_h
+FD: io/github/solclient/client/mixin/mod/MixinTabListMod$MixinGuiPlayerTabOverlay/header io/github/solclient/client/mixin/mod/MixinTabListMod$MixinGuiPlayerTabOverlay/field_175256_i
+FD: io/github/solclient/client/mixin/mod/MixinTabListMod$MixinGuiPlayerTabOverlay/footer io/github/solclient/client/mixin/mod/MixinTabListMod$MixinGuiPlayerTabOverlay/field_175255_h
+FD: io/github/solclient/client/mixin/mod/MixinTabListMod$MixinGuiPlayerTabOverlay/mc io/github/solclient/client/mixin/mod/MixinTabListMod$MixinGuiPlayerTabOverlay/field_175250_f
+FD: io/github/solclient/client/mixin/mod/MixinTweaksMod$MixinGuiIngame/mc io/github/solclient/client/mixin/mod/MixinTweaksMod$MixinGuiIngame/field_73839_d
+FD: io/github/solclient/client/mixin/mod/MixinTweaksMod$MixinGuiIngame/remainingHighlightTicks io/github/solclient/client/mixin/mod/MixinTweaksMod$MixinGuiIngame/field_92017_k
+FD: io/github/solclient/client/mixin/mod/MixinTweaksMod$MixinGuiIngame/highlightingItemStack io/github/solclient/client/mixin/mod/MixinTweaksMod$MixinGuiIngame/field_92016_l
+FD: io/github/solclient/client/mixin/mod/MixinTweaksMod$MixinMinecraft/gameSettings io/github/solclient/client/mixin/mod/MixinTweaksMod$MixinMinecraft/field_71474_y
+FD: io/github/solclient/client/mixin/mod/MixinV1_7VisualsMod$MixinItemRenderer/mc io/github/solclient/client/mixin/mod/MixinV1_7VisualsMod$MixinItemRenderer/field_78455_a
+FD: io/github/solclient/client/mixin/mod/MixinV1_7VisualsMod$MixinItemRenderer/itemToRender io/github/solclient/client/mixin/mod/MixinV1_7VisualsMod$MixinItemRenderer/field_78453_b
+FD: io/github/solclient/client/mixin/mod/MixinV1_7VisualsMod$MixinEntityRenderer/mc io/github/solclient/client/mixin/mod/MixinV1_7VisualsMod$MixinEntityRenderer/field_78531_r
+MD: io/github/solclient/client/mixin/client/MixinAbstractResourcePack/getPackName ()Ljava/lang/String; io/github/solclient/client/mixin/client/MixinAbstractResourcePack/func_130077_b ()Ljava/lang/String;
+MD: io/github/solclient/client/mixin/client/MixinEntityRenderer/isDrawBlockOutline ()Z io/github/solclient/client/mixin/client/MixinEntityRenderer/func_175070_n ()Z
+MD: io/github/solclient/client/mixin/client/MixinFontRendererCompat/getStringWidth (Ljava/lang/String;)I io/github/solclient/client/mixin/client/MixinFontRendererCompat/func_78256_a (Ljava/lang/String;)I
+MD: io/github/solclient/client/mixin/client/MixinFontRendererCompat/drawString (Ljava/lang/String;III)I io/github/solclient/client/mixin/client/MixinFontRendererCompat/func_78276_b (Ljava/lang/String;III)I
+MD: io/github/solclient/client/mixin/client/MixinFontRendererCompat/drawStringWithShadow (Ljava/lang/String;FFI)I io/github/solclient/client/mixin/client/MixinFontRendererCompat/func_175063_a (Ljava/lang/String;FFI)I
+MD: io/github/solclient/client/mixin/client/MixinGuiContainer/checkHotbarKeys (I)Z io/github/solclient/client/mixin/client/MixinGuiContainer/func_146983_a (I)Z
+MD: io/github/solclient/client/mixin/client/MixinGuiIngame/showCrosshair ()Z io/github/solclient/client/mixin/client/MixinGuiIngame/func_175183_b ()Z
+MD: io/github/solclient/client/mixin/client/MixinGuiScreen/actionPerformed (Lnet/minecraft/client/gui/GuiButton;)V io/github/solclient/client/mixin/client/MixinGuiScreen/func_146284_a (Lnet/minecraft/client/gui/GuiButton;)V
+MD: io/github/solclient/client/mixin/client/MixinGuiScreen/openWebLink (Ljava/net/URI;)V io/github/solclient/client/mixin/client/MixinGuiScreen/func_175282_a (Ljava/net/URI;)V
+MD: io/github/solclient/client/mixin/client/MixinLocale/loadLocaleData (Ljava/util/List;)V io/github/solclient/client/mixin/client/MixinLocale/func_135028_a (Ljava/util/List;)V
+MD: io/github/solclient/client/mixin/client/MixinLocale/checkUnicode ()V io/github/solclient/client/mixin/client/MixinLocale/func_135024_b ()V
+MD: io/github/solclient/client/mixin/client/MixinLocale/loadLocaleDataFiles (Lnet/minecraft/client/resources/IResourceManager;Ljava/util/List;)V io/github/solclient/client/mixin/client/MixinLocale/func_135022_a (Lnet/minecraft/client/resources/IResourceManager;Ljava/util/List;)V
+MD: io/github/solclient/client/mixin/client/MixinMinecraft/drawSplashScreen (Lnet/minecraft/client/renderer/texture/TextureManager;)V io/github/solclient/client/mixin/client/MixinMinecraft/func_180510_a (Lnet/minecraft/client/renderer/texture/TextureManager;)V
+MD: io/github/solclient/client/mixin/client/MixinMinecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V io/github/solclient/client/mixin/client/MixinMinecraft/func_147108_a (Lnet/minecraft/client/gui/GuiScreen;)V
+MD: io/github/solclient/client/mixin/client/MixinMinecraft/getLimitFramerate ()I io/github/solclient/client/mixin/client/MixinMinecraft/func_90020_K ()I
+MD: io/github/solclient/client/mixin/client/MixinRenderManager/getEntityRenderObject (Lnet/minecraft/entity/Entity;)Lnet/minecraft/client/renderer/entity/Render; io/github/solclient/client/mixin/client/MixinRenderManager/func_78713_a (Lnet/minecraft/entity/Entity;)Lnet/minecraft/client/renderer/entity/Render;
+MD: io/github/solclient/client/mixin/client/MixinResourcePackListEntryFound/func_148312_b ()Ljava/lang/String; io/github/solclient/client/mixin/client/MixinResourcePackListEntryFound/func_148312_b ()Ljava/lang/String;
+MD: io/github/solclient/client/mixin/client/MixinScreenshotHelper/getTimestampedPNGFileForDirectory (Ljava/io/File;)Ljava/io/File; io/github/solclient/client/mixin/client/MixinScreenshotHelper/func_74290_a (Ljava/io/File;)Ljava/io/File;
+MD: io/github/solclient/client/mixin/client/MixinScreenshotHelper/saveScreenshot (Ljava/io/File;Ljava/lang/String;IILnet/minecraft/client/shader/Framebuffer;)Lnet/minecraft/util/IChatComponent; io/github/solclient/client/mixin/client/MixinScreenshotHelper/func_148259_a (Ljava/io/File;Ljava/lang/String;IILnet/minecraft/client/shader/Framebuffer;)Lnet/minecraft/util/IChatComponent;
+MD: io/github/solclient/client/mixin/mod/MixinSCReplayMod$MixinCameraEntity/addChatMessage (Lnet/minecraft/util/IChatComponent;)V io/github/solclient/client/mixin/mod/MixinSCReplayMod$MixinCameraEntity/func_145747_a (Lnet/minecraft/util/IChatComponent;)V
+MD: io/github/solclient/client/mixin/mod/MixinTweaksMod$MixinGuiIngame/getFontRenderer ()Lnet/minecraft/client/gui/FontRenderer; io/github/solclient/client/mixin/mod/MixinTweaksMod$MixinGuiIngame/func_175179_f ()Lnet/minecraft/client/gui/FontRenderer;
+MD: io/github/solclient/client/mixin/mod/MixinTweaksMod$MixinEnchantment/getName ()Ljava/lang/String; io/github/solclient/client/mixin/mod/MixinTweaksMod$MixinEnchantment/func_77320_a ()Ljava/lang/String;
+MD: io/github/solclient/client/mixin/mod/MixinTweaksMod$MixinEntityRenderer/setupViewBobbing (F)V io/github/solclient/client/mixin/mod/MixinTweaksMod$MixinEntityRenderer/func_78475_f (F)V
+MD: io/github/solclient/client/mixin/mod/MixinTweaksMod$MixinEntityRenderer/hurtCameraEffect (F)V io/github/solclient/client/mixin/mod/MixinTweaksMod$MixinEntityRenderer/func_78482_e (F)V
+MD: io/github/solclient/client/mixin/mod/MixinV1_7VisualsMod$MixinItemRenderer/transformFirstPersonItem (FF)V io/github/solclient/client/mixin/mod/MixinV1_7VisualsMod$MixinItemRenderer/func_178096_b (FF)V

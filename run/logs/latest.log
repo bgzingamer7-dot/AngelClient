@@ -1,0 +1,187 @@
+[16:51:37] [main/INFO]: Extra: [--tweakClass, io.github.solclient.client.tweak.Tweaker]
+[16:51:37] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Pichau/.gradle/caches/minecraft/assets, --assetIndex, 1.8, --accessToken{REDACTED}, --version, 1.8.9, --tweakClass, io.github.solclient.client.tweak.Tweaker]
+[16:51:37] [main/INFO]: Loading tweak class name io.github.solclient.client.tweak.Tweaker
+[16:51:37] [main/INFO]: Using primary tweak class name io.github.solclient.client.tweak.Tweaker
+[16:51:37] [main/INFO]: Calling tweak class io.github.solclient.client.tweak.Tweaker
+[16:51:37] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/Pichau/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.11-SNAPSHOT/7a670207bdb97db418118ad1e9bb42424ff3776d/mixin-0.7.11-SNAPSHOT.jar Service=LaunchWrapper Env=UNKNOWN
+[16:51:38] [main/INFO]: FML platform manager could not load class cpw.mods.fml.relauncher.CoreModManager. Proceeding without FML support.
+[16:51:38] [main/INFO]: Compatibility level set to JAVA_8
+[16:51:38] [main/ERROR]: Mixin config mixins.solclient.json does not specify "minVersion" property
+[16:51:38] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[16:51:38] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[16:51:38] [main/INFO]: Remapping refMap mixins.solclient.refmap.json using C:\Users\Pichau\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\22\srgs\srg-mcp.srg
+[16:51:38] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using C:\Users\Pichau\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\22\srgs\srg-mcp.srg
+[16:51:38] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using C:\Users\Pichau\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\22\srgs\srg-mcp.srg
+[16:51:38] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using C:\Users\Pichau\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\22\srgs\srg-mcp.srg
+[16:51:38] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using C:\Users\Pichau\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\22\srgs\srg-mcp.srg
+[16:51:38] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using C:\Users\Pichau\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\22\srgs\srg-mcp.srg
+[16:51:38] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using C:\Users\Pichau\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\22\srgs\srg-mcp.srg
+[16:51:38] [main/WARN]: Error loading class: net/optifine/LightMap (java.lang.ClassNotFoundException: The specified class 'net.optifine.LightMap' was not found)
+[16:51:38] [main/WARN]: @Mixin target org.lwjgl.opengl.LinuxKeycodes is public in mixins.solclient.json:lwjgl.MixinLinuxKeycodes and should be specified in value
+[16:51:38] [main/WARN]: Error loading class: net/minecraftforge/fml/common/network/handshake/NetworkDispatcher (java.lang.ClassNotFoundException: The specified class 'net.minecraftforge.fml.common.network.handshake.NetworkDispatcher' was not found)
+[16:51:38] [main/WARN]: @Mixin target net.minecraftforge.fml.common.network.handshake.NetworkDispatcher was not found mixins.core.replaymod.json:MixinNetworkDispatcher
+[16:51:38] [main/WARN]: Error loading class: net/minecraftforge/client/GuiIngameForge (java.lang.ClassNotFoundException: The specified class 'net.minecraftforge.client.GuiIngameForge' was not found)
+[16:51:38] [main/WARN]: @Mixin target net.minecraftforge.client.GuiIngameForge was not found mixins.render.replaymod.json:Mixin_SkipHudDuringRender
+[16:51:38] [main/WARN]: Error loading class: net/minecraft/client/renderer/WorldRenderer$LocalRenderInformationContainer (java.lang.ClassNotFoundException: The specified class 'net.minecraft.client.renderer.WorldRenderer$LocalRenderInformationContainer' was not found)
+[16:51:38] [main/WARN]: @Mixin target net.minecraft.client.renderer.WorldRenderer$LocalRenderInformationContainer was not found mixins.render.blend.replaymod.json:ContainerLocalRenderInformationAccessor
+[16:51:38] [main/INFO]: Launching wrapped minecraft {io.github.solclient.client.PreMain}
+[16:51:39] [main/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:39] [main/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:39] [main/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:40] [main/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:40] [main/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:40] [main/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:40] [main/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:40] [main/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:40] [main/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:40] [main/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:40] [main/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:41] [Client thread/INFO]: Setting user: Player421
+[16:51:41] [Client thread/INFO]: (Session ID is ??)
+[16:51:42] [Client thread/INFO]: LWJGL Version: 2.9.3
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:42] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.input, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.input, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.input, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.input, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.input, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.input, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.input, but that path is defined and not secure
+[16:51:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:43] [Client thread/INFO]: Reloading ResourceManager: Default
+[16:51:44] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:44] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:44] [Client thread/INFO]: Initialising...
+[16:51:44] [Client thread/INFO]: Loading settings...
+[16:51:44] [Client thread/INFO]: Loading mods...
+[16:51:44] [Client thread/ERROR]: Could not register mod discord_integration
+java.lang.UnsatisfiedLinkError: Can't load library: C:\Users\Pichau\Downloads\client-1.8.9 (1)\client-1.8.9\game\run\.\discord.dll
+	at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1820) ~[?:1.8.0_472]
+	at java.lang.Runtime.load0(Runtime.java:782) ~[?:1.8.0_472]
+	at java.lang.System.load(System.java:1100) ~[?:1.8.0_472]
+	at de.jcm.discordgamesdk.Core.init(Core.java:58) ~[Core.class:?]
+	at io.github.solclient.client.mod.impl.discordrpc.DiscordIntegrationMod.onRegister(DiscordIntegrationMod.java:88) ~[DiscordIntegrationMod.class:?]
+	at io.github.solclient.client.Client.register(Client.java:344) [Client.class:?]
+	at io.github.solclient.client.Client.init(Client.java:198) [Client.class:?]
+	at net.minecraft.client.Minecraft.handler$init$zbd000(SourceFile:2912) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.startGame(SourceFile:386) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(SourceFile:310) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at io.github.solclient.client.PreMain.main(PreMain.java:18) [PreMain.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+[16:51:44] [Client thread/INFO]: Loaded 36 mods
+[16:51:44] [Client thread/INFO]: Saving settings...
+[16:51:44] [Client thread/INFO]: Starting culling thread...
+[16:51:44] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:51:45] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[16:51:45] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:51:45] [Thread-8/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[16:51:45] [Thread-8/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[16:51:45] [Thread-8/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[16:51:45] [Thread-8/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[16:51:45] [Thread-8/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[16:51:45] [Thread-8/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[16:51:45] [Thread-8/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[16:51:45] [Thread-8/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[16:51:45] [Thread-8/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[16:51:45] [Thread-8/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[16:51:45] [Thread-8/INFO]: OpenAL initialized.
+[16:51:45] [Sound Library Loader/INFO]: Sound engine started
+[16:51:47] [Client thread/INFO]: Created: 512x512 textures-atlas
+[16:51:48] [Client thread/WARN]: Method overwrite conflict for getHandler in mixins.render.replaymod.json:Mixin_StabilizeCamera, previously written by com.replaymod.render.mixin.Mixin_Omnidirectional_Rotation. Skipping method.
+[16:51:48] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:51:49] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:52:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:52:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:52:43] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:52:45] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
+[16:52:45] [Server thread/INFO]: Generating keypair
+[16:52:45] [Server thread/INFO]: Preparing start region for level 0
+[16:52:45] [Server thread/INFO]: Changing view distance to 5, from 10
+[16:52:46] [Netty Local Client IO #0/INFO]: Singleplayer Recording is disabled
+[16:52:46] [Server thread/INFO]: Player421[local:E:cb7e2b39] logged in with entity id 60 at (-907.7356719828024, 6.753350919582218, 563.0029558732572)
+[16:52:46] [Server thread/INFO]: Player421 joined the game
+[16:52:47] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[16:52:47] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.input, but that path is defined and not secure
+[16:52:47] [Server thread/INFO]: Saving and pausing game...
+[16:52:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:52:47] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:52:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:52:51] [Server thread/INFO]: Saving and pausing game...
+[16:52:51] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:52:51] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:52:51] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:52:54] [Client thread/INFO]: Stopping!
+[16:52:54] [Client thread/INFO]: SoundSystem shutting down...
+[16:52:54] [Server thread/INFO]: Stopping server
+[16:52:54] [Server thread/INFO]: Saving players
+[16:52:54] [Server thread/INFO]: Saving worlds
+[16:52:54] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:52:54] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:52:54] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:52:54] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[16:52:54] [Client thread/ERROR]: The jar file C:\Users\Pichau\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.3\3df168ac74e4a8c96562cdff24ad352e255bf89c\lwjgl-2.9.3.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure

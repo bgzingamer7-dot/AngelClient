@@ -1,0 +1,86 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 18/02/26 16:41
+Description: Initializing game
+
+java.lang.NullPointerException: Initializing game
+	at io.github.solclient.client.ui.screen.SolClientMainMenu$AngelClientMenuComponent.<init>(SolClientMainMenu.java:294)
+	at io.github.solclient.client.ui.screen.SolClientMainMenu.<init>(SolClientMainMenu.java:55)
+	at net.minecraft.client.Minecraft.handler$openGui$zbd000(SourceFile:3005)
+	at net.minecraft.client.Minecraft.displayGuiScreen(SourceFile)
+	at net.minecraft.client.Minecraft.redirect$display$zbd000(SourceFile:3354)
+	at net.minecraft.client.Minecraft.startGame(SourceFile:476)
+	at net.minecraft.client.Minecraft.run(SourceFile:310)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at io.github.solclient.client.PreMain.main(PreMain.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at io.github.solclient.client.ui.screen.SolClientMainMenu$AngelClientMenuComponent.<init>(SolClientMainMenu.java:294)
+	at io.github.solclient.client.ui.screen.SolClientMainMenu.<init>(SolClientMainMenu.java:55)
+	at net.minecraft.client.Minecraft.handler$openGui$zbd000(SourceFile:3005)
+	at net.minecraft.client.Minecraft.displayGuiScreen(SourceFile)
+	at net.minecraft.client.Minecraft.redirect$display$zbd000(SourceFile:3354)
+	at net.minecraft.client.Minecraft.startGame(SourceFile:476)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.run(SourceFile:310)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at io.github.solclient.client.PreMain.main(PreMain.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_472, Temurin
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Temurin
+	Memory: 425200120 bytes (405 MB) / 1596981248 bytes (1523 MB) up to 3674210304 bytes (3504 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Launched Version: 1.8.9
+	LWJGL: 2.9.3
+	OpenGL: AMD Radeon(TM) Graphics GL version 4.6.0 Compatibility Profile Context 25.8.1.250617, ATI Technologies Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 5x AMD Ryzen 5 4600G with Radeon Graphics
